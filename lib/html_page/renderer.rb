@@ -1,6 +1,6 @@
 module HtmlPage
   class Renderer
-    def initialize(content:, head: "", body: "")
+    def initialize(content: nil, head: "", body: "")
       @content = content
       @head = head
       @body = body
